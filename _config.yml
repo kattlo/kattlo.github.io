@@ -16,7 +16,7 @@
 title: Kattlo
 remote_theme: pmarsceill/just-the-docs
 description: Apache Kafka® Configuration Made Easy
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kattlo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
