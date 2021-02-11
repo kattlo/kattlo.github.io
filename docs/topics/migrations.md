@@ -15,7 +15,7 @@ parent: Topics
 
 ---
 
-Lear how to use migrations to manage topic lifecycle.
+Learn how to use migrations to manage topic lifecycle.
 
 ## Section
 
