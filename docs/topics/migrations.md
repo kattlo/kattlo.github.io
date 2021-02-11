@@ -1,0 +1,22 @@
+---
+layout: default
+title: Color
+parent: Topics
+---
+
+# Topic Migrations
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+Lear how to use migrations to manage topic lifecycle.
+
+## Section
+
+TODO
