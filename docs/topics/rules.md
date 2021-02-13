@@ -110,9 +110,11 @@ rules:
       min.cleanable.dirty.ratio:
         '>=': 0.01
 ```
+
 ## Available Notations for Human Readable
 
 - topic name regex pattern
+  - [Java Pattern](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html)
 - time: trasformed to millis
   - `seconds`
   - `minutes`
