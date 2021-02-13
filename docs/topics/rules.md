@@ -148,5 +148,5 @@ __Examples__:
 
 ## Limitations of Human Readable
 
-In the current version lists (`'in'` and `'!in'`) does not support human
+In the current version, lists (`'in'` and `'!in'`) does not support human
 readable values.
