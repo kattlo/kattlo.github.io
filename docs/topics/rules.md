@@ -25,8 +25,9 @@ has a way to enforce rules before apply Topic migrations.
 
 First you must declare your Topic rules in `.kattlo.yml`.
 
+__Example with human readable notation:__
+
 ```yaml
-# example with human readable notation
 rules:
   topic:
     namePattern: '^[a-z0-9\-]{1,255}$'
@@ -68,8 +69,9 @@ rules:
         '>=': 1%
 ```
 
+__Example with machine readable notation:__
+
 ```yaml
-# example with machine readable notation
 rules:
   topic:
     namePattern: '^[a-z0-9\-]{1,255}$'
