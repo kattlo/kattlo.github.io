@@ -21,19 +21,39 @@ evolutionary configuration. Easy to understand, easy to write and easy to apply.
 
 ### Install Kattlo
 
-TODO
+```bash
+curl 'https://github.com/kattlo/kattlo-cli/releases/download/v0.1.1/kattlo-v0.1.1-linux' \
+  -o 'kattlo'
+
+sudo chmod +x kattlo
+sudo mv kattlo /usr/local/sbin/kattlo
+```
+
+- [See installation options]({{ site.baseurl }}{% link docs/installation.md %})
 
 ### Initialize new project directory
 
-TODO
+```bash
+kattlo init --directory='/path/to/initialize'
+```
 
 ### Generate new migration file
 
-TODO
+```bash
+kattlo gen migration \
+  --resource=TOPIC \
+  --diretory='/path/to/migration'
+```
 
 ### Apply the migration
 
-TODO
+```bash
+kattlo \
+  --config-file='/path/to/.kattlo.yaml' \
+  --kafka-config-file='/path/to/kafka.properties' \
+  topic \
+  --directory='/path/to/migrations'
+```
 
 - [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
 
