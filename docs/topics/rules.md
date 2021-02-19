@@ -150,5 +150,5 @@ __Examples__:
 
 ## Limitations of Human Readable
 
-In the current version, lists (`'in'` and `'!in'`) does not support human
-readable values.
+In the current version, lists (`'in'` and `'!in'`), `partitions` and
+`replicationFactor` does not support human readable values.
