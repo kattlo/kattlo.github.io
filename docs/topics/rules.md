@@ -27,6 +27,8 @@ First you must declare your Topic rules in `.kattlo.yml`.
 
 __Example with human readable notation:__
 
+- [See human readable options]({{ site.baseurl }}{% link docs/configutarion.md %})
+
 ```yaml
 rules:
   topic:
@@ -113,30 +115,6 @@ rules:
         '>=': 0.01
 ```
 
-## Available Notations for Human Readable
-
-- topic name regex pattern
-  - [Java Pattern](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html)
-- time: trasformed to millis
-  - `seconds`
-  - `minutes`
-  - `hours`
-  - `days`
-- size: transformed to bytes
-  - `KiB`
-  - `MiB`
-  - `GiB`
-- math: transformed to floating point number between `0` and `1`
-  - `%`
-
-__Examples__:
-
-- `1day` will be transformed in `86400000` milliseconds
-- `2seconds` in `2000` milliseconds
-- `1hour` in `3600000` milliseconds
-- `1KiB` in `1024` bytes
-- `50%` in `0.5`
-
 ## Available Conditions
 
 - `'=='`: equals
@@ -152,3 +130,5 @@ __Examples__:
 
 In the current version, lists (`'in'` and `'!in'`), `partitions` and
 `replicationFactor` does not support human readable values.
+
+- [See human readable options]({{ site.baseurl }}{% link docs/configutarion.md %})
