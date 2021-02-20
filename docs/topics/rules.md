@@ -27,7 +27,7 @@ First you must declare your Topic rules in `.kattlo.yml`.
 
 __Example with human readable notation:__
 
-- [See human readable options]({{ site.baseurl }}{% link docs/configutarion.md %})
+- [See human readable options]({{ site.baseurl }}{% link docs/configutation.md %})
 
 ```yaml
 rules:
@@ -131,4 +131,4 @@ rules:
 In the current version, lists (`'in'` and `'!in'`), `partitions` and
 `replicationFactor` does not support human readable values.
 
-- [See human readable options]({{ site.baseurl }}{% link docs/configutarion.md %})
+- [See human readable options]({{ site.baseurl }}{% link docs/configuration.md %})
