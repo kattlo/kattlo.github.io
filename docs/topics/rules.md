@@ -27,7 +27,7 @@ First you must declare your Topic rules in `.kattlo.yml`.
 
 __Example with human readable notation:__
 
-- [See human readable options]({{ site.baseurl }}{% link docs/configutation.md %})
+- [See human readable options]({{ site.baseurl }}{% link docs/configuration.md %})
 
 ```yaml
 rules:
