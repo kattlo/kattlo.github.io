@@ -9,5 +9,5 @@ permalink: docs/topics
 # Topics
 {: .no_toc }
 
-Manage the entire Apache Kafka Topics using human friendly yaml declaration.
+Manage the entire Apache Kafka® Topics using human friendly yaml declaration.
 {: .fs-6 .fw-300 }
