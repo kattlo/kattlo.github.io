@@ -63,6 +63,14 @@ kattlo \
 
 Kattlo is &copy; 2020-{{ "now" | date: "%Y" }} by [Fábio José](https://github.com/fabiojose).
 
+### Made With
+
+- [Java 11](https://adoptopenjdk.net/)
+- [Picocli](https://picocli.info/)
+- [Quarkus](https://quarkus.io/)
+- [GraalVM](https://www.graalvm.org/)
+- [and a lot of coffee ☕](https://www.buymeacoffee.com/fabiojose)
+
 ### License
 
 Kattlo is distributed by an [Apache 2.0](https://github.com/kattlo/kattlo-cli/blob/main/LICENSE).
