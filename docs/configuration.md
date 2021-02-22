@@ -43,16 +43,18 @@ initialized.
 - name regex pattern
   - [Java Pattern](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html)
 - time: transformed to millis
-  - `seconds`
-  - `minutes`
-  - `hours`
-  - `days`
+  - `seconds` or `second`
+  - `minutes` or `minute`
+  - `hours` or `hour`
+  - `days` or `day`
 - size: transformed to bytes
   - `KiB`
   - `MiB`
   - `GiB`
 - math: transformed to floating point number between `0` and `1`
   - `%`
+
+> For bytes Kattlo uses the [quibibyte notation](https://en.wikipedia.org/wiki/Byte#Multiple-byte_units)
 
 __Examples__:
 
