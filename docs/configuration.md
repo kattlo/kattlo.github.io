@@ -19,6 +19,25 @@ migrations and rules.
 
 ---
 
+## Initialization
+
+To initialize new Kattlo project you just run the following command:
+
+```bash
+kattlo init --directory='/path/to/initialize'
+```
+
+Use the `--bootstrap-servers` to generate the Kattlo config
+with right Kafka addresses:
+
+```bash
+kattlo --bootstrap-servers='my-kafka-b1:9092,my-kafka-b2:9092' \
+  init --directory='/path/to/initialize'
+```
+
+> If you suppress the `--directory` option, the current folder will be
+initialized.
+
 ## Available Notations for Human Readable
 
 - name regex pattern
@@ -48,7 +67,7 @@ __Examples__:
 Relative or absolute path to Kattlo's configuration file.
 
 In the `.kattlo.yaml` configuration file you may define the following
-properties or use the [init command]() to generate it.
+properties or use the [init command](#initialization) to generate it.
 
 Example of `.kattlo.yaml`
 
@@ -63,7 +82,10 @@ rules:
 
 ## `--kafka-config-file`
 
-Relative or absolute path to Apache Kafka® configuration file.
+Relative or absolute path to Apache Kafka® configuration file used by
+Kattlo to perform Admin, Producer and Consumer operations.
+
+> Created by [init command too](#initialization)
 
 You may put the properties described at
 [official documentation](https://kafka.apache.org/documentation/#adminclientconfigs).
