@@ -43,3 +43,34 @@ __Examples__:
 - `1KiB` in `1024` bytes
 - `50%` in `0.5`
 
+## `--config-file`
+
+Relative or absolute path to Kattlo's configuration file.
+
+In the `.kattlo.yaml` configuration file you may define the following
+properties or use the [init command]() to generate it.
+
+Example of `.kattlo.yaml`
+
+```yaml
+rules:
+  topic:
+    namePattern: 'your pattern'
+    # more rules constraints...
+```
+
+- [See a full example of .kattlo.yaml](https://github.com/kattlo/kattlo-cli/blob/main/examples/topic/rules/human/.kattlo.yaml)
+
+## `--kafka-config-file`
+
+Relative or absolute path to Apache Kafka® configuration file.
+
+You may put the properties described at
+[official documentation](https://kafka.apache.org/documentation/#adminclientconfigs).
+
+Example of `kafka.properties`:
+
+```properties
+bootstrap.servers=localhost:19092,localhost:29092
+client.id=kattlo-cli
+```
