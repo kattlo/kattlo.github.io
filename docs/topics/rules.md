@@ -88,7 +88,7 @@ rules:
 ```
 
 And then run the kattlo to enforce rules during the topic migration,
-pointing to you `.kattlo.yaml`:
+pointing to your `.kattlo.yaml`:
 
 ```bash
 kattlo \
