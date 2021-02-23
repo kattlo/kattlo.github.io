@@ -40,7 +40,7 @@ Simplifing:
 - where `v0000` will be the version of resource migration, from `1` to `n`
 - when a new migration is created, increase the version
 
-### File Content
+## File Content
 
 Every migration file must have exatcly one resource migration.
 
