@@ -109,6 +109,10 @@ kattlo \
 - `'in'`: in a list of values 
 - `!in`: not in a list of values
 
+## See How it Works
+
+[![asciicast](https://asciinema.org/a/394373.svg)](https://asciinema.org/a/394373)
+
 ## Limitations of Human Readable
 
 In the current version, lists (`'in'` and `'!in'`), `partitions` and
