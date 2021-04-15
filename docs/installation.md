@@ -22,7 +22,7 @@ Run Kattlo natively in Linux, MacOS and Windows.
 ## Linux Binary
 
 ```bash
-curl 'https://github.com/kattlo/kattlo-cli/releases/download/v0.2.1/kattlo-v0.2.1-linux' \
+curl 'https://github.com/kattlo/kattlo-cli/releases/download/v0.2.2/kattlo-v0.2.2-linux' \
   -o 'kattlo'
 
 sudo chmod +x kattlo
@@ -37,7 +37,7 @@ The are `.deb` and `.rpm` packages available. Do a check in
 ## MacOS
 
 ```bash
-curl 'https://github.com/kattlo/kattlo-cli/releases/download/v0.2.1/kattlo-v0.2.1-mac' \
+curl 'https://github.com/kattlo/kattlo-cli/releases/download/v0.2.2/kattlo-v0.2.2-mac' \
   -o 'kattlo'
 
 sudo chmod +x kattlo
